@@ -1,0 +1,30 @@
+main{
+    height: 100%;
+}
+.ctn-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.ctn-title h1{
+    width: 100%;
+    color:#0590ec;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.ctn-title p{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    color: darkgrey;
+    text-align: center;
+}

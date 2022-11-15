@@ -24,6 +24,14 @@ nav {
     z-index: 100;
 }
 
+.logo{
+    display: flex;
+    margin: auto;
+    transform: translateY(90%);
+    width: 50px;
+    visibility: visible;
+}
+
 .nav-logo {
     margin-left: 20px;
     z-index: 100;
@@ -32,14 +40,17 @@ nav {
 
 .nav-logo h2 {
     color: #95bdd8;
-    font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
 }
 
 .nav-logo h2 span {
     color: #0590ec;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .nav-links .link {
@@ -49,10 +60,11 @@ nav {
 .link a {
     text-decoration: none;
     color: #d1faf4;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 25px;
     letter-spacing: 3px;
     transition: .3s;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .link a:hover {
@@ -62,7 +74,8 @@ nav {
 .toggle {
     color: #d1faf4;
     margin-right: 20px;
-    font-size: 30px;
+    font-size:25px;
+    font-weight: 900;
     transform: rotate(90deg);
     cursor: pointer;
     transition: .3s;
@@ -87,7 +100,7 @@ nav {
         overflow: hidden;
         height: calc(100vh - 80px);
         width: 100%;
-        z-index: -1;
+        z-index: 1;
         top: -100vh;
         transition: .5s;
     }
@@ -98,5 +111,9 @@ nav {
 
     .nav-links .link:hover {
         background: #051c38;
+    }
+
+    .logo{
+        visibility: hidden;
     }
 }
