@@ -163,46 +163,54 @@ footer {
   background-color: #ffffff;
 }
 
-main {
-  height: 100%;
-}
-
 .ctn-title {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: auto;
-  height: 100%;
   width: 100%;
 }
 
 .ctn-title h1 {
   width: 100%;
-  color: #0590ec;
+  color: #cecfcf;
   text-align: center;
-  margin: auto;
-  margin-top: 40px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-}
-
-.ctn-title p {
-  width: 100%;
   margin: auto;
   margin-top: 20px;
-  color: darkgrey;
-  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 
 video {
-  position: absolute;
   margin: auto;
-  margin-top: 350px;
   width: 100%;
-  height: 500px;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: -1;
   display: flex;
+}
+
+.ctn-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+}
+
+.ctn-info div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.ctn-info div h2 {
+  color: white;
+}
+
+.ctn-info div p {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
